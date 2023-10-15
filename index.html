@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="witdh=device-width, initial-scale=1.0">
+        <title> Weathery </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+<div class="card">
+
+    <!--Button-->
+    <div class="search">
+        <input type="text" placeholder="enter city name" spellcheck="false">
+        <button> <img src="assets/images/search.png"> </button>
+    </div>
+
+    <!--Error-->
+    <div class="error">
+        <p>Invalid city name</p>
+    </div>
+
+    <!--Images-->
+
+    <div class="weather"> 
+        <img src="assets/images/rain.png" class="weather-icon">
+        <h1 class="temp"> 
+            22°C
+        </h1>
+        <h2 class="feels-like">Feels like</h2>
+        <h2 class="city">Belfort</h2>
+        <div class="details">
+            <div class="col glass">
+                <img src="assets/images/humidity.png">
+                <div>   
+                    <p class="humidity weather-text">50%</p>
+                    <p class="weather-text">Humidity</p>
+                </div>
+            </div>
+            <div class="col glass">
+                <img src="assets/images/wind.png">
+                <div>   
+                    <p class="wind weather-text">15 km/h</p>
+                    <p class="weather-text">Wind Speed</p>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+</div>
+
+<script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
