@@ -11,7 +11,7 @@ setInterval(()=>{
     time.innerHTML = d.toLocaleTimeString;
 }, 1000)*/
 
-//display weather info 
+//display weather infos 
 async function checkWeather(city){
 
     const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
@@ -44,6 +44,8 @@ async function checkWeather(city){
 }
 
 searchBtn.addEventListener("click", ()=> {
+    
     checkWeather(searchBox.value);
+
 })
 checkWeather("belfort");
