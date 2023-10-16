@@ -10,9 +10,10 @@
 
     <!--Button-->
     <div class="search">
-        <input type="text" placeholder="enter city name" spellcheck="false">
+        <input type="text" placeholder="enter city name" spellcheck="false" class="search-input">
         <button> <img src="assets/images/search.png"> </button>
     </div>
+    
 
     <!--Error-->
     <div class="error">
@@ -22,13 +23,15 @@
     <!--Images-->
 
     <div class="weather"> 
+        <h2 class="city">Belfort</h2>
+        <h2 class="day-name current-time">victor </h2>
         <img src="assets/images/rain.png" class="weather-icon">
         <h1 class="temp"> 
             22°C
         </h1>
         <h2 class="feels-like">Feels like</h2>
-        <h2 class="city">Belfort</h2>
         <div class="details">
+            <div class="row">
             <div class="col glass">
                 <img src="assets/images/humidity.png">
                 <div>   
@@ -43,9 +46,24 @@
                     <p class="weather-text">Wind Speed</p>
                 </div>
             </div>
-        
+        </div>
+        <div class="row">
+            <div class="col glass">
+                <img src="assets/images/sunrise.png">
+                <div>   
+                    <p class="sunrise weather-text"> Sunrise: 12:01</p>
+                </div>
+            </div>
+            <div class="col glass">
+                <img src="assets/images/sunset.png">
+                <div>   
+                    <p class="sunset weather-text">Sunset: 12:02</p>
+                </div>
+            </div>
+        </div>
         </div>
     </div>
+    <h2 class="pseudo">Website made by @hermidrn</h2>
 </div>
 
 <script type="text/javascript" src="index.js"></script>
