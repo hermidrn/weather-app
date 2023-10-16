@@ -1,4 +1,4 @@
-const apiKey = "25644103878aa38a3e710b3f92e347ea";
+// apiKey hidden for github. Therefore, the project should not run if just downloaded. const apiKey = "";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=";
 const searchBox = document.querySelector(".search input");
 const searchBtn = document.querySelector(".search button");
