@@ -1,5 +1,12 @@
-# weather-app
-A simple weather app inspired by GreatStack tutorial on Youtube, in which I made UI changes.
+# Weather App
+
+A simple website I made using Javascript, HTML and CSS.
+
+The base of the app was made with the following tutorial: GreatStack - How to make a Weather App using Javascript Step by Step. The data are fetched with the Open Weather Map API.
+
+I made a lot of modifications to display different weather datas and to the UI.
+
+# Examples
 
 ![Capture d’écran 2023-10-16 164144](https://github.com/hermidrn/weather-app/assets/66182250/c6a692b6-c80c-4771-9d69-602aa4dc6308)
 ![Capture d’écran 2023-10-16 163436](https://github.com/hermidrn/weather-app/assets/66182250/edfaabb7-f75f-4290-9fc1-b522062ba7b0)
